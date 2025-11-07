@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Accueil</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div class="accueil"><img src="photos/logo_site.svg" alt="logo_site"></div>
+            <div class="burger" id="burger"><img src="photos/logo_menu.png" alt="logo_menu"></div>
+        </div>
+        <nav id="nav_menu">
+            <a href="#">Accueil</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">Services</a>
+        </nav>
+    </header>
+    <section>
+
+    </section>
+
+    <script> const burger = document.getElementById('burger');
+        const navMenu = document.getElementById('nav_menu');
+
+        burger.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!navMenu.contains(e.target) && !burger.contains(e.target)) {
+                navMenu.classList.remove('show');
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

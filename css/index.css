@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+    line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+    text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+.accueil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accueil img {
+    width: 35px;
+    height: 40px;
+}
+
+.burger {
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.burger img {
+    width: 20px;
+    height: 12px;
+    cursor: pointer;
+
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
+    height:10%;
+    position:relative;
+}
+
+
+nav {   
+    /* affiche le menu quand la classe show est ajoutée */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #99B5AC;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    top: 10%;
+    left: 0;
+    border-radius: 0 10px 10px 0;
+
+    /* Menu caché à gauche et invisible */
+    transform: translateX(-100%);
+    opacity: 0;
+    pointer-events: none;
+
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    
+
+}
+
+nav.show {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;   
+
+}
+
+nav a {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-decoration: none;
+    color: white;
+}
