@@ -15,20 +15,18 @@
 
 <body>
     <header>
+        <nav>
         <div class="logo">
             <div class="accueil"><img src="photos/logo_site.svg" alt="logo_site"></div>
             <div class="burger" id="burger"><img src="photos/logo_menu.png" alt="logo_menu"></div>
         </div>
-        <nav id="nav_menu">
-            <a href="#">Accueil</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-            <a href="#">Services</a>
-        </nav>
-    </header>
-
-
-    <main>
+        <div id="nav_menu">
+            <a href="#" class="lien_accueil">Accueil</a>
+            <a href="#" class="autres_liens">Blog</a>
+            <a href="#" class="autres_liens">Contact</a>
+            <a href="#" class="autres_liens">Services</a>
+        </div> 
+        </nav>   
         <section class="home">
             <div class="texte">
                 <h2 class="texte1">Café Délicieux</h2>
@@ -39,6 +37,8 @@
             </div>
 
         </section>
+        </header>
+        <main>
 
         <div class="container">
             <h2 class="texte3">Nos top Produits</h2>
@@ -157,16 +157,13 @@
                 <h3>Découvrir</h3>
             </div>
             <div class="navigation">
-                <div class="navig_scroll">
-                    <div class="barre_navig">
-                        <a href="#" class="navig" alt="gâteaux">Gâteaux</a>
-                        <a href="#" class="navig" alt="muffins">Muffins</a>
-                        <a href="#" class="navig" alt="croissant">Croissant</a>
-                        <a href="#" class="navig" alt="pains">Pains</a>
-                        <a href="#" class="navig" alt="pains">Tartes</a>
-                    </div>
-                    <div class="box_marron"></div>
-                </div>
+                <div class="barre_navig">
+                    <a href="#" class="navig1" alt="gâteaux" >Gâteaux</a>
+                    <a href="#" class="navig" alt="muffins">Muffins</a>
+                    <a href="#" class="navig" alt="croissant">Croissant</a>
+                    <a href="#" class="navig" alt="pains">Pains</a>
+                    <a href="#" class="navig" alt="pains">Tartes</a>
+                </div>                
             </div>
 
             <div class="gateaux">
@@ -290,25 +287,6 @@
                 Tous droits réservés</p>
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <script> const burger = document.getElementById('burger');
