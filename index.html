@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap"
@@ -14,19 +14,21 @@
 </head>
 
 <body>
+    <!--le header représente la page d'accueil avec les boutons de navigation des différentes pages 
+    et le bouton CTA commander-->
     <header>
         <nav>
-        <div class="logo">
-            <div class="accueil"><img src="photos/logo_site.svg" alt="logo_site"></div>
-            <div class="burger" id="burger"><img src="photos/logo_menu.png" alt="logo_menu"></div>
-        </div>
-        <div id="nav_menu">
-            <a href="#" class="lien_accueil">Accueil</a>
-            <a href="#" class="autres_liens">Blog</a>
-            <a href="#" class="autres_liens">Contact</a>
-            <a href="#" class="autres_liens">Services</a>
-        </div> 
-        </nav>   
+            <div class="logo">
+                <div class="accueil"><img src="photos/logo_site.svg" alt="logo_site"></div>
+                <div class="burger" id="burger"><img src="photos/logo_menu.png" alt="logo_menu"></div>
+            </div>
+            <div id="nav_menu">
+                <a href="#" class="lien_accueil">Accueil</a>
+                <a href="#" class="autres_liens">Blog</a>
+                <a href="#" class="autres_liens">Contact</a>
+                <a href="#" class="autres_liens">Services</a>
+            </div>
+        </nav>
         <section class="home">
             <div class="texte">
                 <h2 class="texte1">Café Délicieux</h2>
@@ -37,12 +39,15 @@
             </div>
 
         </section>
-        </header>
-        <main>
+    </header>
+    <main>
 
         <div class="container">
             <h2 class="texte3">Nos top Produits</h2>
         </div>
+
+        <!--section qui affiche le visuel des produits phares du site internet 
+        avec la possibilité de les ajouter au panier-->  
 
         <section class="tops_produits">
 
@@ -141,6 +146,8 @@
             </div>
         </section>
 
+        <!--section qui décrit les réductions appliquées sur le site-->
+
         <section class="reduction">
             <div class="text1">
                 <h3>20% de Réduction sur la première commande</h3>
@@ -152,18 +159,21 @@
             <a href="#" class="en_savoir_plus">En savoir plus</a>
         </section>
 
+        <!--section qui décrit les différentes gammes de produits du site avec le visuel des produits et la possibilité d'accéder à tous les produits 
+        pour chaque gamme en cliquant sur les boutons du petit menu de navigation-->
+
         <section class="decouvrir">
             <div class="box">
-                <h3>Découvrir</h3>
+                <h2>Découvrir</h2>
             </div>
             <div class="navigation">
                 <div class="barre_navig">
-                    <a href="#" class="navig1" alt="gâteaux" >Gâteaux</a>
-                    <a href="#" class="navig" alt="muffins">Muffins</a>
-                    <a href="#" class="navig" alt="croissant">Croissant</a>
-                    <a href="#" class="navig" alt="pains">Pains</a>
-                    <a href="#" class="navig" alt="pains">Tartes</a>
-                </div>                
+                    <a href="#" class="navig1">Gâteaux</a>
+                    <a href="#" class="navig">Muffins</a>
+                    <a href="#" class="navig">Croissant</a>
+                    <a href="#" class="navig">Pains</a>
+                    <a href="#" class="navig">Tartes</a>
+                </div>
             </div>
 
             <div class="gateaux">
@@ -178,6 +188,8 @@
 
         </section>
 
+        
+        <!--section qui décrit qui l'éthique de l'entreprise avec un bouton en savoir plus pour plus de détail-->
         <section class="a_propos">
             <div class="text3">
                 <h3>A propos</h3>
@@ -188,9 +200,11 @@
             <a href="#" class="lire_plus">Lire plus</a>
         </section>
 
+        <!--section qui affiche le visuel et les prix des petits produits que le site propose-->
+
         <section class="petits_plaisirs">
             <div class="text5">
-                <h3>Petits Plaisirs</h3>
+                <h2>Petits Plaisirs</h2>
             </div>
             <div class="plaisirs">
                 <div class="type_plaisirs">
@@ -214,10 +228,11 @@
                         <p>8€</p>
                     </div>
                 </div>
+            </div>
         </section>
 
     </main>
-
+    <!--bas de page du site qui renvoie aux différents liens du site, les actualités de l'entreprise, comment contacter l'entreprise sur les réseaux et par téléphone ou mail-->
     <footer>
         <div class="reseau">
             <img src="photos/logo_site2.svg" alt="logo_site">
@@ -288,7 +303,7 @@
         </div>
     </footer>
 
-
+<!--javascript qui permet d'afficher le menu de navigation avec un menu burger-->
     <script> const burger = document.getElementById('burger');
         const navMenu = document.getElementById('nav_menu');
 

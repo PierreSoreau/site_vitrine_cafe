@@ -191,7 +191,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease
 }
+
+
+
 
 #nav_menu a:first-child {
     border-top: none;
@@ -416,7 +420,6 @@ h1 span {
     font-weight: 500;
     color: #933C24;
     font-family: "Sansita Swashed", cursive;
-    font-optical-sizing: auto;
     text-align: center;
 
 }
@@ -659,7 +662,7 @@ h1 span {
 
 }
 
-.text5 h3 {
+.text5 h2 {
     color: black;
     font-size: 24px;
     font-weight: 600;
@@ -812,50 +815,13 @@ footer {
 }
 
 
-
-@media (min-width:576px) and (max-width:992px) {
-
-    .tops_produits {
-        flex-wrap: wrap;
-        flex-direction: row;
-        height: auto;
-    }
-
-    .gateaux {
-        flex-wrap: wrap;
-        flex-direction: row;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .plaisirs {
-        flex-wrap: wrap;
-        flex-direction: row;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .type_plaisirs {
-        width: 280px;
-
-    }
-
-    .type_plaisirs img {
-        width: 280px;
-
-    }
-
-
-}
-
-@media (min-width:993px) {
+@media (min-width:576px) {
 
     .tops_produits {
         flex-wrap: wrap;
         flex-direction: row;
         height: auto;
+
     }
 
     .gateaux {
@@ -884,14 +850,14 @@ footer {
         background-repeat: no-repeat;
         /* Évite les répétitions */
         position: relative;
-        height: 813px;
+        height: 500px;
     }
 
     .home {
         background-image: none;
-        height: 713px;
+        height: 500px;
         padding: 0px;
-        padding-top: 250px;
+        padding-top: 100px;
 
     }
 
@@ -900,13 +866,13 @@ footer {
     }
 
     .accueil img {
-        height: 120px;
-        width: 110px;
+        height: 80px;
+        width: 80px;
 
     }
 
     .logo {
-        height: 100px;
+        height: 80px;
     }
 
     .texte {
@@ -915,24 +881,24 @@ footer {
     }
 
     .texte1 {
-        font-size: 24px;
+        font-size: 20px;
 
     }
 
 
     .texte2 {
-        font-size: 74px;
+        font-size: 40px;
 
     }
 
     .button {
         margin-left: 150px;
-        margin-top: 100px;
+        margin-top: 50px;
 
     }
 
     .button a {
-        font-size: 24px;
+        font-size: 20px;
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 20px;
@@ -950,7 +916,6 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-color: none;
         position: relative;
         top: 0px;
         opacity: 1;
@@ -971,9 +936,10 @@ footer {
         color: white;
         font-family: "Poppins", cursive;
         border-top: none;
-        font-size: 25px;
+        font-size: 20px;
         background-color: transparent;
         font-weight: 600;
+
 
     }
 
@@ -982,7 +948,7 @@ footer {
     }
 
     .texte3 {
-        font-size: 64px;
+        font-size: 45px;
 
     }
 
@@ -992,17 +958,515 @@ footer {
     }
 
     .big_container {
+        width: 300px;
+        height: 400px;
+    }
+
+    .tops_produits {
+        width: 100%;
+    }
+
+    .small_container1 {
+        font-size: 18px;
+        padding-right: 30px;
+    }
+
+    .small_container2 {
+        font-size: 16px;
+    }
+
+    .photo_produit1 {
+        width: 226px;
+        height: 223px;
+
+    }
+
+    .photo_produit2 {
+        width: 290px;
+        height: 223px;
+
+    }
+
+    .photo_produit3 {
+        width: 290px;
+        height: 220px;
+
+    }
+
+    .photo_produit4 {
+        width: 230px;
+        height: 230px;
+
+    }
+
+    .photo_produit5 {
+        width: 230px;
+        height: 230px;
+
+    }
+
+    .photo_produit6 {
+        width: 230px;
+        height: 230px;
+
+    }
+
+
+    .text1 h3 {
+        font-size: 36px;
+    }
+
+    .text2 {
+        max-width: 350px;
+    }
+
+    .text2 p {
+        font-size: 24px;
+    }
+
+    .reduction {
+        height: 442px;
+        margin-top: 100px;
+    }
+
+    .en_savoir_plus {
+        font-size: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .decouvrir {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .box {
+        margin-bottom: 60px;
+    }
+
+    .box h2 {
+        font-size: 45px;
+    }
+
+
+    .navigation {
+        overflow-x: hidden;
+    }
+
+    .gateaux img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gateaux {
+        width: 100%;
+        margin-top: 100px;
+        gap: 20px;
+
+    }
+
+    .a_propos {
+        height: 454px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 100px;
+    }
+
+    .text3 h3 {
+        font-size: 48px;
+    }
+
+    .text4 {
+        width: 350px;
+    }
+
+    .text4 p {
+        font-size: 24px;
+    }
+
+    .lire_plus {
+        font-size: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .text5 {
+        font-size: 45px;
+    }
+
+    .text5 h2 {
+        font-size: 64px;
+    }
+
+    .plaisirs {
+        margin-top: 100px;
+    }
+
+    .type_plaisirs {
+        width: 300px;
+        height: 400px;
+    }
+
+    .type_plaisirs img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .prix p {
+        font-size: 25px;
+    }
+
+    .prix {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .petits_plaisirs {
+        margin-bottom: 100px;
+    }
+
+
+    .titre_footer {
+        color: #E9BD8C;
+        font-size: 36px;
+        font-family: "Inter", cursive;
+        font-weight: 700;
+    }
+
+    .box_titre_footer {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .infos_footer p {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Poppins", cursive;
+
+    }
+
+    .infos {
+        width: 257px;
+    }
+
+
+
+    .box_detail_actualite {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+
+    }
+
+    .detail_actualite {
+        display: flex;
+        width: 311px;
+        gap: 20px;
+    }
+
+
+
+
+    .jour {
+        color: #E9BD8C;
+        font-size: 24px;
+        font-family: "Poppins", cursive;
+        font-weight: 400;
+    }
+
+    .produit {
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: "Poppins", cursive;
+    }
+
+
+
+}
+
+
+@media (min-width:993px) {
+
+    .home {
+        height: 700px;
+        padding-top: 250px;
+    }
+
+    header {
+        height: 800px;
+    }
+
+    .accueil img {
+        height: 100px;
+        width: 100px;
+
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    .texte1 {
+        font-size: 24px;
+
+    }
+
+
+    .texte2 {
+        font-size: 74px;
+
+    }
+
+    .texte3 {
+        font-size: 64px;
+        transform: scale(1.05);
+
+    }
+
+    .texte3:hover{
+        text-decoration: underline;
+        text-decoration-color: #933C24;
+
+    }
+
+
+    .button {
+        margin-left: 150px;
+        margin-top: 100px;
+
+    }
+
+    .button a {
+        font-size: 24px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #nav_menu {
+        gap: 60px;
+    }
+
+    .navig {
+        font-size: 30px;
+    }
+
+    .navig1 {
+        font-size: 30px;
+    }
+
+    .barre_navig {
+        gap: 50px;
+    }
+
+    .autres_liens,
+    .lien_accueil {
+        font-size: 25px;       
+    }
+    
+
+    .box h2 {
+        font-size: 60px;
+    }
+
+    .big_container {
+        width: 300px;
+        height: 400px;
+        transition: transform 0.3s ease;        
+    }   
+
+    .ajouter:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .big_container:hover{
+        transform: scale(1.05);
+    }
+
+    .gateaux img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .text5 {
+        font-size: 64px;
+    }
+
+
+
+    .type_plaisirs {
+        width: 300px;
+        height: 400px;
+    }
+
+
+    .type_plaisirs img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .prix {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .prix p {
+        font-size: 24px;
+    }
+
+
+    .container_infos {
+        flex-direction: row;
+        gap: 6%;
+    }
+
+
+    .titre_footer {
+        color: #E9BD8C;
+        font-size: 36px;
+        font-family: "Inter", cursive;
+        font-weight: 700;
+    }
+
+    .box_titre_footer {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .infos_footer p {
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Poppins", cursive;
+
+    }
+
+    .infos {
+        width: 257px;
+    }
+
+
+
+    .box_detail_actualite {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+
+    }
+
+    .detail_actualite {
+        display: flex;
+        width: 311px;
+        gap: 20px;
+    }
+
+
+
+    .jour {
+        color: #E9BD8C;
+        font-size: 18px;
+        font-family: "Poppins", cursive;
+        font-weight: 400;
+    }
+
+    .produit {
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: "Poppins", cursive;
+    }
+
+    .reseau {
+        flex-direction: row;
+        padding-right: 100px;
+    }
+
+    .suivre {
+        flex-direction: row;
+        width: auto;
+    }
+
+    .container_infos {
+        flex-direction: row;
+        gap: 6%;
+    }
+
+
+
+}
+
+
+@media (min-width:1250px) {
+
+    .big_container {
+        width: 350px;
+        height: 400px;
+    }
+
+    .gateaux img {
         width: 350px;
         height: 350px;
     }
 
-    .tops_produits {
-        width: 65%;
+    .type_plaisirs {
+        width: 350px;
+        height: 450px;
+    }
+
+    .type_plaisirs img {
+        width: 100%;
+        height: 350px;
+    }
+
+
+    .container_infos {
+        gap: 10%;
     }
 
 
 
+}
+
+@media (min-width:1401px) {
+
+    .big_container {
+        width: 380px;
+        height: 400px;
+    }
+
+    .gateaux img {
+        width: 380px;
+        height: 380px;
+    }
+
+    .type_plaisirs {
+        width: 380px;
+        height: 480px;
+    }
+
+    .type_plaisirs img {
+        width: 100%;
+        height: 380px;
+    }
 
 
-
+    .container_infos {
+        gap: 10%;
+    }
 }
