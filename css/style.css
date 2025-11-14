@@ -494,12 +494,19 @@ h1 span {
 
 }
 
-.barre_navig::before,
-.barre_navig::after {
-    content: "";
-    display: block;
-    flex-shrink: 0;
-    width: calc(50vw - 75px);
+.navigation {
+    overflow-x: auto;
+    scrollbar-width: none; /* firefox */
+}
+
+.navigation::-webkit-scrollbar {
+    display: none; /* chrome / safari */
+}
+
+.barre_navig {
+    display: flex;
+    gap: 30px;
+    padding: 0 20px;   /* padding simple, propre */
 }
 
 
@@ -518,14 +525,12 @@ h1 span {
 .navigation {
     border-bottom: 1px solid #D9D9D9;
     width: 95%;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
-    padding-bottom: 10px;
+    padding: 0 0 10px 20px; /* marge à gauche propre */
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-
 }
+
 
 .navig1 {
     position: relative;
