@@ -15,7 +15,7 @@ Vous pouvez consulter la maquette du projet ici : [Voir la maquette Figma](https
 
 ## Fonctionnalités
 
-Vous pouvez consulter le site ici: [Voir le site du bar café](
+Vous pouvez consulter le site ici: [Voir le site du bar café](https://pierresoreau.github.io/site_vitrine_cafe/)
 
 Site vitrine uniquement à consulter en one page
 
