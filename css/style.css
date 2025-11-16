@@ -1,3 +1,7 @@
+
+/*ENSEMBLE DES DES REGLES CSS APPLIQUEES PAR DEFAUT AFIN DE REINITIALISER 
+LES MISES EN FORME APPLIQUEES PAR CHACUN DES NAVIGATEURS*/
+
 *,
 *::before,
 *::after {
@@ -83,6 +87,11 @@ textarea:not([rows]) {
 :target {
     scroll-margin-block: 5ex;
 }
+
+
+/*CSS POUR LE FORMAT MOBILE*/
+
+/*css du header*/
 
 .accueil {
     display: flex;
@@ -268,6 +277,9 @@ h1 span {
 }
 
 
+/*------------------------------------------------------------------------*/
+
+/*css des tops_produits*/
 
 .texte3 {
     font-size: 24px;
@@ -397,6 +409,11 @@ h1 span {
     width: 50%;
 }
 
+/*---------------------------------------------------------------*/
+
+
+/*css pour la sous-partie texte reduction*/
+
 .reduction {
     display: flex;
     flex-direction: column;
@@ -459,6 +476,10 @@ h1 span {
 
 }
 
+/*----------------------------------------------------------------*/
+
+/*css pour la partie des produits à decouvrir*/
+
 .decouvrir {
     height: auto;
     width: 100%;
@@ -485,9 +506,7 @@ h1 span {
     gap: 30px;
     width: max-content;
     padding: 0 20px;
-    position: relative;
-    /*padding-left: max(20px, 35vw);
-    padding-right: max(20px, 35vw);*/
+    position: relative; 
 
 
 
@@ -563,6 +582,11 @@ h1 span {
     height: 1890px;
 }
 
+
+/*--------------------------------------------------------------*/
+
+/*css de la partie description de l'entreprise*/
+
 .lire_plus {
     text-decoration: none;
     color: white;
@@ -620,6 +644,9 @@ h1 span {
     text-align: center;
 }
 
+/*----------------------------------------------------------------
+
+/*css des patisseries petits plaisirs*/ 
 
 .petits_plaisirs {
     display: flex;
@@ -675,6 +702,10 @@ h1 span {
     text-align: center;
 }
 
+/*---------------------------------------------------------------*/
+
+/*css du footer*/
+
 footer {
     display: flex;
     flex-direction: column;
@@ -688,6 +719,7 @@ footer {
     align-items: center;
 
 }
+
 
 .reseau img {
     width: 144px;
@@ -819,6 +851,11 @@ footer {
     font-weight: 600;
 }
 
+/*-------------------------------------------------------------*/
+
+/*css format tablette avec principalement des changements de taille d'image et de police et changement du visuel du menu de navigation 
+en retirant le menu burger et en le remplaçant par un menu de navigation classique de visuel ordinateur. 
+Passage également a des visuels de photos sous plusieurs colonnes au lieu de 1 seule pour le format mobile*/
 
 @media (min-width:576px) {
 
@@ -1198,8 +1235,8 @@ footer {
 
 
 }
-
-
+/*--------------------------------------------------------------------*/
+/*css pour visuel format petit écran desktop en gardant la même logique de design que pour la tablette mais en augmentant les tailles d'image et police principalement*/
 @media (min-width:993px) {
 
     .home {
@@ -1415,8 +1452,9 @@ footer {
 
 
 }
+/*-----------------------------------------------------------------*/
 
-
+/*css format pour desktop classique*/
 @media (min-width:1250px) {
 
     .big_container {
@@ -1447,7 +1485,8 @@ footer {
 
 
 }
-
+/*----------------------------------------------------------------*/
+/*css format pour desktop large*/
 @media (min-width:1401px) {
 
     .big_container {
@@ -1512,7 +1551,8 @@ footer {
         gap: 10%;
     }
 }
-
+/*------------------------------------------------------------*/
+/*css pour format desktop très large*/
 @media (min-width:1570px){
 
     .big_container {
