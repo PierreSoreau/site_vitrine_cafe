@@ -21,7 +21,7 @@ Site vitrine uniquement à consulter en one page
 
 4 animations:
 
-1. Overture de la barre de navigation en cliquant sur le menu burger
+1. Ouverture de la barre de navigation en cliquant sur le menu burger
 2. Changement de couleur des boutons ajouter des produits "nos top produits" au survol de la souris
 3. Zoom des cases des produits "nos top produits" au survol de la souris
 4. Texte "nos top produits" souligné au survol de la souris
