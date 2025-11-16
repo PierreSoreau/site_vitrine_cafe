@@ -1,7 +1,32 @@
-Site internet vitrine d'un bar café basé sur une maquette Figma 
-Le site a été réalisé en html et css et est entièrement responsive (ordinateur,tablette et mobile)
-Comme prévu dans la demande du projet, il y a 4 animations sur le site:
-1)animation d'ouverture de la barre de navigation en cliquant sur le menu burger
-2)chanchement de couleur des boutons ajouter des produits "nos top produits" au survol de la souris
-3)zoom des cases des produits "nos top produits" au survol de la souris
-4)texte "nos top produits" soulignés au survol de la souriss
+# Site vitrine d'un bar café
+
+Site vitrine en langage html et css et entièrement responsive (ordinateur,tablette et mobile).
+
+Le visuel du site est basé sur une maquette figma
+
+## Technologies utilisées
+
+1. Html
+2. Css
+
+## Maquette
+
+Vous pouvez consulter la maquette du projet ici : [Voir la maquette Figma](https://www.figma.com/design/qYpNj8QCYgcidchESYcqhP/maquette_site_vitrine_cafe?node-id=0-1&p=f&t=qAf5ZpUCC8ERixrL-0)
+
+## Fonctionnalités
+
+Vous pouvez consulter le site ici: [Voir le site du bar café](
+
+Site vitrine uniquement à consulter en one page
+
+4 animations:
+
+1. Overture de la barre de navigation en cliquant sur le menu burger
+2. Changement de couleur des boutons ajouter des produits "nos top produits" au survol de la souris
+3. Zoom des cases des produits "nos top produits" au survol de la souris
+4. Texte "nos top produits" souligné au survol de la souris
+
+
+
+
+
