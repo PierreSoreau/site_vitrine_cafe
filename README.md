@@ -6,7 +6,7 @@ Le visuel du site est basé sur une maquette figma
 
 ## Technologies utilisées
 
-<img src="https://skillicons.dev/icons?i=html5,css3" />
+<img src="https://skillicons.dev/icons?i=html5,css3">
 
 ## Maquette
 
